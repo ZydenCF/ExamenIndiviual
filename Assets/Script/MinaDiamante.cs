@@ -8,6 +8,7 @@ public class MinaDiamante : Mina
         produccion = 120;
         costo = 1000;
         estado = "Ninguno";
+
     }
 
     public override int GenerarPlata()
