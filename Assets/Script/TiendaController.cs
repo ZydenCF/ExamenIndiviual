@@ -4,19 +4,14 @@ using TMPro;
 
 public class TiendaController : MonoBehaviour
 {
-    [System.Serializable]
-    public class BotonesTienda
-    {
-        public Button botonMinaHierro;
-        public Button botonMinaOro;
-        public Button botonMinaDiamante;
-        public Button botonMejorarAlmacen;
-        public Button botonObrero;
-        public Button botonSuperObrero;
-        public Button botonUltraObrero;
-    }
+    public Button botonMinaHierro;
+    public Button botonMinaOro;
+    public Button botonMinaDiamante;
+    public Button botonMejorarAlmacen;
+    public Button botonObrero;
+    public Button botonSuperObrero;
+    public Button botonUltraObrero;
 
-    public BotonesTienda botones;
     public TextMeshProUGUI textoMinaSeleccionada;
     private int minaSeleccionada = 0;
 
@@ -27,20 +22,20 @@ public class TiendaController : MonoBehaviour
 
     private void ConfigurarBotones()
     {
-        if (botones.botonMinaHierro != null)
-            botones.botonMinaHierro.onClick.AddListener(() => ComprarMina("Hierro"));
-        if (botones.botonMinaOro != null)
-            botones.botonMinaOro.onClick.AddListener(() => ComprarMina("Oro"));
-        if (botones.botonMinaDiamante != null)
-            botones.botonMinaDiamante.onClick.AddListener(() => ComprarMina("Diamante"));
-        if (botones.botonMejorarAlmacen != null)
-            botones.botonMejorarAlmacen.onClick.AddListener(MejorarAlmacenamiento);
-        if (botones.botonObrero != null)
-            botones.botonObrero.onClick.AddListener(() => ContratarTrabajador("Obrero"));
-        if (botones.botonSuperObrero != null)
-            botones.botonSuperObrero.onClick.AddListener(() => ContratarTrabajador("SuperObrero"));
-        if (botones.botonUltraObrero != null)
-            botones.botonUltraObrero.onClick.AddListener(() => ContratarTrabajador("UltraObrero"));
+        if (botonMinaHierro != null)
+            botonMinaHierro.onClick.AddListener(() => ComprarMina("Hierro"));
+        if (botonMinaOro != null)
+            botonMinaOro.onClick.AddListener(() => ComprarMina("Oro"));
+        if (botonMinaDiamante != null)
+            botonMinaDiamante.onClick.AddListener(() => ComprarMina("Diamante"));
+        if (botonMejorarAlmacen != null)
+            botonMejorarAlmacen.onClick.AddListener(MejorarAlmacenamiento);
+        if (botonObrero != null)
+            botonObrero.onClick.AddListener(() => ContratarTrabajador("Obrero"));
+        if (botonSuperObrero != null)
+            botonSuperObrero.onClick.AddListener(() => ContratarTrabajador("SuperObrero"));
+        if (botonUltraObrero != null)
+            botonUltraObrero.onClick.AddListener(() => ContratarTrabajador("UltraObrero"));
     }
 
     public void ComprarMina(string tipo)
