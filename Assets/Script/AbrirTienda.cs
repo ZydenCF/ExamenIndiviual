@@ -20,6 +20,7 @@ public class AbrirTienda : MonoBehaviour
             {
                 bool estado = panelTienda.activeSelf;
                 panelTienda.SetActive(!estado);
+
             }
         }
     }
