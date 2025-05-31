@@ -14,6 +14,7 @@ public class Jugador
         minas = new List<Mina>();
     }
 
+
     public int CalcularGananciaDia()
     {
         int total = 0;
