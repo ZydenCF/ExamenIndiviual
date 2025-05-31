@@ -4,7 +4,6 @@ using TMPro;
 public class UIController : MonoBehaviour
 {
     public TextMeshProUGUI textoPlata;
-    public TextMeshProUGUI textoDia;
     public TextMeshProUGUI textoVictoria;
     public GameObject panelVictoria;
 
@@ -29,11 +28,6 @@ public class UIController : MonoBehaviour
             textoPlata.text = "Plata: " + nuevaPlata + "/" +
                            GameManager.instancia.jugador.almacenamiento;
         }
-    }
-
-    public void ActualizarDia(int nuevoDia)
-    {
-        textoDia.text = "Día: " + nuevoDia;
     }
 
     public void MostrarVictoria()
