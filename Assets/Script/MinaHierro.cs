@@ -10,6 +10,7 @@ public class MinaHierro : Mina
         produccion = 20;
         costo = 100;
         estado = "Ninguno";
+
    }
     
     
