@@ -10,6 +10,7 @@ public class MinaOro : Mina
         estado = "Vacio";
     }
 
+
     public override int GenerarPlata()
     {
         if (trabajador != null)
