@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
         GameObject minaObj = Instantiate(prefabAUsar, posicion, Quaternion.identity);
 
         Mina componente = minaObj.GetComponent<Mina>();
+
         if (componente == null)
         {
             switch (tipo)
