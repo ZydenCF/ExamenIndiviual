@@ -6,6 +6,7 @@ public class Obrero : ITrabajador
 {
     public int CalcularProduccion(int produccionMina)
     {
+
         return produccionMina;
     }
 }
