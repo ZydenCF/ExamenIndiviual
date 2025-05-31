@@ -8,9 +8,7 @@ public abstract class Mina : MonoBehaviour
     public int costo;
     public string estado;
     public ITrabajador trabajador;
-
     public Transform puntoSpawnTrabajador;
-
     private bool produciendo = false;
     private GameObject trabajadorVisual;
 
