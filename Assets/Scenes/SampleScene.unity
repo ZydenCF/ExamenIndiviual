@@ -1882,7 +1882,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoPlata: {fileID: 1263784802}
-  textoDia: {fileID: 0}
   textoVictoria: {fileID: 1225654034}
   panelVictoria: {fileID: 116853328}
 --- !u!1 &813229425
@@ -1996,14 +1995,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f27766579fb27244195508c5823f9ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botones:
-    botonMinaHierro: {fileID: 1054147437}
-    botonMinaOro: {fileID: 1422564069}
-    botonMinaDiamante: {fileID: 1519619310}
-    botonMejorarAlmacen: {fileID: 65086607}
-    botonObrero: {fileID: 169309739}
-    botonSuperObrero: {fileID: 123589767}
-    botonUltraObrero: {fileID: 1485250271}
+  botonMinaHierro: {fileID: 1054147437}
+  botonMinaOro: {fileID: 1422564069}
+  botonMinaDiamante: {fileID: 1519619310}
+  botonMejorarAlmacen: {fileID: 65086607}
+  botonObrero: {fileID: 169309739}
+  botonSuperObrero: {fileID: 123589767}
+  botonUltraObrero: {fileID: 1485250271}
   textoMinaSeleccionada: {fileID: 408743217}
 --- !u!114 &843043365
 MonoBehaviour:
